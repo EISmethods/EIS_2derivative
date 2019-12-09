@@ -1,0 +1,18 @@
+This directory contains the explicit EIS and EIS+ methods that are SSP.
+
+1.The explicit SSP methods that are EIS and cannot be postprocessed. The methods have s stages and are of order P=p+1
+    a. eEIS_SSP2s3P.mat contains the coefficients of the eSSP-EIS method with s=2 and P=p+1=3
+    b. eEIS_SSP2s4P.mat contains the coefficients of the eSSP-EIS method with s=2 and P=p+1=4
+    c. eEIS_SSP3s4P.mat contains the coefficients of the eSSP-EIS method with s=3 and P=p+1=4
+    d. eEIS_SSP3s5P.mat contains the coefficients of the eSSP-EIS method with s=3 and P=p+1=5
+    e. eEIS_SSP3s6P.mat contains the coefficients of the eSSP-EIS method with s=3 and P=p+1=6
+
+2. The explicit SSP methods that are EIS and can be postprocessed. The methods have s stages and are of order P=p+2
+    a. eEISpp_SSP2s4P.mat contains the coefficients of the eSSP-EIS+ method with s=2 and P=p+2=4
+    b. eEISpp_SSP2s5P.mat contains the coefficients of the eSSP-EIS+ method with s=2 and P=p+2=5
+    c. eEISpp_SSP3s4P.mat contains the coefficients of the eSSP-EIS+ method with s=3 and P=p+2=4
+    d. eEISpp_SSP3s5P.mat contains the coefficients of the eSSP-EIS+ method with s=3 and P=p+2=5
+    e. eEISpp_SSP3s6P.mat contains the coefficients of the eSSP-EIS+ method with s=3 and P=p+2=6
+    f. eEISpp_SSP3s7P.mat contains the coefficients of the eSSP-EIS+ method with s=3 and P=p+2=7
+
+
