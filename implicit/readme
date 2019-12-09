@@ -1,0 +1,3 @@
+This directory contains the coefficient files for our implicit EIS+ two-derivative methods. 
+    1. The method with s=2 stages and order P=p+2=4 method with parallel structure iEISpp_2s4Pparallel.mat
+    2. The method with s=3 stages and order P=p+2=5 method with parallel structure iEISpp_3s5Pparallel.mat
