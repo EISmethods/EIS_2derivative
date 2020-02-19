@@ -6,14 +6,14 @@ Our notation is eEIS(s,P) for explicit methods that cannot be post-processed, wi
 truncation error p=P-1, and overall order P.
       a. eEIS(2,3) with stages s=2 and overall order P=p+1=3; coefficients are contained in the file eEIS_2s3P.mat, 
       b. eEIS(2,5) with stages s=2 and overall order P=p+1=5; coefficients are contained in the file eEIS_2s5P.mat, 
-      c eEIS(2,7) with stages s=2 and overall order P=p+1=7; coefficients are contained in the file  eEIS_3s7P.mat.
+      c eEIS(3,7) with stages s=3 and overall order P=p+1=7; coefficients are contained in the file  eEIS_3s7P.mat.
 2. EIS methods (that can be post-processed): 
 Our notation is eEIS+(s,P) for explicit methods that can be post-processed, with s stages, 
 truncation error p=P-2, and overall order P.
-      a. eEIS(2,5) with stages s=2 and overall order P=p+2=5 ofter post-processing; coefficients in the file eEISpp_2s5P.mat,
-      b. eEIS(2,6) with stages s=2 and overall order P=p+2=6 ofter post-processing; coefficients in the file eEISpp_2s6P.mat,
-      c. eEIS(3,7) with stages s=3 and overall order P=p+2=7 ofter post-processing; coefficients in the file eEISpp_3s7P.mat,
-      d. eEIS(4,8) with stages s=4 and overall order P=p+2=8 ofter post-processing; coefficients in the file eEISpp_4s8P.mat.
+      a. eEIS+(2,5) with stages s=2 and overall order P=p+2=5 ofter post-processing; coefficients in the file eEISpp_2s5P.mat,
+      b. eEIS+(2,6) with stages s=2 and overall order P=p+2=6 ofter post-processing; coefficients in the file eEISpp_2s6P.mat,
+      c. eEIS+(3,7) with stages s=3 and overall order P=p+2=7 ofter post-processing; coefficients in the file eEISpp_3s7P.mat,
+      d. eEIS+(4,8) with stages s=4 and overall order P=p+2=8 ofter post-processing; coefficients in the file eEISpp_4s8P.mat.
 
 We also include the Kinmark-Gray method coefficients in KinnmarkAndGrey5s3p.mat because we use this method in our numerical 
 tests for comparison. This method has 5 stages and order P=p=3.
